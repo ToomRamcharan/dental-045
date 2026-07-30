@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+:root { --primary: #2563eb; --accent: #1d4ed8; --bg: #ffffff; --text: #0f172a; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', sans-serif; color: var(--text); background-color: var(--bg); overflow-x: hidden; }
+h1,h2,h3,h4,h5,h6 { font-family: 'Plus Jakarta Sans', serif; }
+.gradient-text { background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 50%, #3b82f6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.glass { background: rgba(255,255,255,0.1); backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.15); }
